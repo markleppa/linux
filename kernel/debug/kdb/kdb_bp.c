@@ -22,6 +22,7 @@
 /*
  * Table of kdb_breakpoints
  */
+ 
 kdb_bp_t kdb_breakpoints[KDB_MAXBPT];
 
 static void kdb_setsinglestep(struct pt_regs *regs)
